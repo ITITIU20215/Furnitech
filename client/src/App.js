@@ -13,6 +13,8 @@ const App = () => {
       <section className='w-[1920px] h-[6178px] bg-brown-400'>
         <section
           className='w-[1920px] h-[1024px] shrink-0'
+
+          // Background
           style={{ backgroundImage: `url('./assets/Container.jpg')` }}
         >
           <section className='
@@ -21,9 +23,6 @@ const App = () => {
 
           >
 
-            {/* Background 1 */}
-
-
 
             {/* Header 1 */}
 
@@ -31,12 +30,11 @@ const App = () => {
               <Header />
             </div>
           </section>
-
           {/* Section */}
-
-          <div className='inline-flex justify-end items-start'>
+          <div >
             <Section />
           </div>
+
 
           {/* Slider Header */}
 
@@ -47,8 +45,9 @@ const App = () => {
             {/* Heading */}
 
             <section className='
-              hero  flex flex-col justify-center items-start  font-DM Sans gap-10 
-              w-[868px] p-[60px]              
+              
+              w-[868px] p-[60px] 
+              hero  flex flex-col justify-center items-start  font-DM Sans gap-10                            
               rounded-[40px] border border-[rgba(255,255,255,0.30)] bg-gradient-to-r from-[rgba(255,255,255,0.10)] via-[rgba(255,255,255,0.30)] to-[rgba(255,255,255,0.60)] backdrop-blur-[16px]
           '>
 
@@ -56,14 +55,14 @@ const App = () => {
 
               <div
                 className=' 
-              flex flex-col items-start gap-4 self-stretch    
+                  flex flex-col items-start gap-4 self-stretch  
             '>
 
                 {/* Frame 6 */}
 
                 <div
                   className='
-              flex flex-col items-start gap-4
+                    flex flex-col items-start gap-4 
             '>
                   <h1
                     className='
@@ -87,8 +86,8 @@ const App = () => {
                     </span>
                   </h1>
                   <h2 className='
-
-              text-neutral-500 font-medium text-2xl leading-[1.1] font-dm-san
+                    w-[733.235px] h-[43px]
+                  text-neutral-500 font-medium  leading-[1.1] font-DM Sans text-[28px]
               '>
                     where quality, style, and your vision all come together.
                   </h2>
@@ -152,6 +151,8 @@ const App = () => {
                 </h1>
               </div>
             </section>
+
+
           </section>
 
 
