@@ -11,11 +11,12 @@ module.exports = {
     extend: {
       boxShadow: {
         custom: '0px 2px 12px 0px rgba(20, 20, 43, 0.08)',
-      }, 
+      },
 
       // set up color 
       colors: {
         "brown": "#220E03",
+        'brown-300': '#FFFDF9',
         'brown-400': '#FAF7F1',
         'brown-600': '#E3DED2',
         'brown-1000': '#948A74',
@@ -33,7 +34,7 @@ module.exports = {
       // set up font
       fontFamily: {
         "DM Sans": "DM+Sans",
-        'Inter' : 'Inter',
+        'Inter': 'Inter',
       },
       spacing: {
         'spacing-8': 'var(--Spacing-8, 32px)',
